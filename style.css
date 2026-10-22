@@ -118,4 +118,95 @@ em {
   h4 {
     font-size: 25px;
   }
+  
+/* ===== CADRE VINTAGE ===== */
+
+body {
+  border: 8px double #c9958d;
+  outline: 1px solid #c9958d;
+  outline-offset: -18px;
+  min-height: 100vh;
+}
+
+/* Séparateurs délicats */
+hr {
+  width: 65%;
+  border: none;
+  border-top: 1px solid #c9958d;
+  margin: 35px auto;
+  position: relative;
+}
+
+/* Encadrement des images */
+img {
+  border: 4px double #c9958d;
+  border-radius: 2px;
+  padding: 5px;
+  background: #fff8ef;
+}
+
+/* ===== ORNEMENTS FLORAUX ===== */
+
+h1 {
+  position: relative;
+  padding: 12px 0 22px;
+}
+
+h1::after {
+  content: "❀  · · ·  ❀";
+  display: block;
+  margin-top: 10px;
+  color: #c58a94;
+  font-size: 21px;
+  letter-spacing: 5px;
+  font-weight: 400;
+}
+
+h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dfb8b5;
+}
+
+h3::after {
+  content: " ✿";
+  color: #c58a94;
+  font-size: 20px;
+}
+
+/* ===== AMBIANCE ROMAN ANCIEN ===== */
+
+body {
+  background-color: #f1d5d8;
+  background-image:
+    radial-gradient(
+      ellipse at top left,
+      #fff0e8 0%,
+      transparent 55%
+    );
+}
+
+/* Citations élégantes */
+blockquote {
+  max-width: 650px;
+  margin: 30px auto;
+  padding: 18px 28px;
+  background: #fff8ef;
+  border: 1px solid #d8b0aa;
+  border-left: 4px double #bd8189;
+  color: #79515a;
+  font-style: italic;
+}
+
+/* Liens façon petites étiquettes anciennes */
+a {
+  border: 1px solid #c9958d;
+  background: #fff8ef;
+  box-shadow: 2px 2px 0 #e4c5bf;
+}
+
+a:hover {
+  background: #c9828b;
+  color: #fff8ef;
+  box-shadow: none;
+}
 }
