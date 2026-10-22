@@ -198,6 +198,8 @@ blockquote {
   font-style: italic;
 }
 
+/* Liens façon petites étiquettes anciennes */
+
 a {
   border: 1px solid #c9958d;
   background: #fff8ef;
